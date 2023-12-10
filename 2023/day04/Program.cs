@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿// Puzzle: https://adventofcode.com/2023/day/4
+
+using System.Runtime.InteropServices.Marshalling;
 
 internal class Program
 {

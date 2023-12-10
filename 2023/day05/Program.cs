@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿// Puzzle: https://adventofcode.com/2023/day/5
+
+using System.Diagnostics;
 using System.Linq;
 
 internal class Program

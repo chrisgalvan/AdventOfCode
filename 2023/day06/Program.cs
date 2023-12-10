@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿// Puzzle: https://adventofcode.com/2023/day/6
+
+internal class Program
 {
     private static void Main(string[] args)
     {

@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿// Puzzle: https://adventofcode.com/2023/day/1
+
+using System.Diagnostics;
 
 internal class Program
 {
@@ -81,8 +83,6 @@ internal class Program
                 i++;
             }
 
-            // Console.WriteLine(total);
-
             int last;
             shouldContinue = true;
             var j = line.Length;
@@ -114,7 +114,5 @@ internal class Program
         Console.WriteLine("PartTwo solution: " + fulltotal);
     }
 
-    private static IEnumerable<string> ReadFile() => 
-        File.ReadLines(Environment.ProcessPath + @"..\..\..\..\..\input.txt");
-
+    private static IEnumerable<string> ReadFile() => File.ReadLines("input.txt");
 }

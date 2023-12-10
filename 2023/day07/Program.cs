@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿// Puzzle: https://adventofcode.com/2023/day/7
+
+using System.ComponentModel;
 
 internal class Program
 {

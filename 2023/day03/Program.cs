@@ -1,4 +1,6 @@
-﻿using System.Text.RegularExpressions;
+﻿// Puzzle: https://adventofcode.com/2023/day/3
+
+using System.Text.RegularExpressions;
 
 internal class Program
 {

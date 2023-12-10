@@ -1,4 +1,4 @@
-﻿
+﻿// Puzzle: https://adventofcode.com/2023/day/8
 
 using System.Text.RegularExpressions;
 
