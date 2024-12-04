@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math"
 	"os"
-	"sort"
-	"strconv"
 	"strings"
+
+	"adventofcode/2024/utils"
 )
 
 func main() {
@@ -26,8 +26,8 @@ func main() {
 		line := scanner.Text()
 		values := strings.Split(line, "   ")
 
-		line1 = append(line1, toInt(values[0]))
-		line2 = append(line2, toInt(values[1]))
+		line1 = append(line1, utils.ToInt(values[0]))
+		line2 = append(line2, utils.ToInt(values[1]))
 	}
 
 	One(line1, line2)
@@ -36,8 +36,8 @@ func main() {
 
 func One(list1 []int, list2 []int) {
 
-	sortSlice(list1)
-	sortSlice(list2)
+	utils.SortSlice(list1)
+	utils.SortSlice(list2)
 
 	var i = 0
 	var j = len(list1)
@@ -64,16 +64,4 @@ func Two(list1 []int, list2 []int) {
 	}
 
 	fmt.Printf("Two - Result: %d\n", total)
-}
-
-func toInt(value string) int {
-	i, _ := strconv.Atoi(value)
-
-	return i
-}
-
-func sortSlice(arr []int) {
-	sort.Slice(arr, func(i, j int) bool {
-		return arr[i] < arr[j]
-	})
 }
