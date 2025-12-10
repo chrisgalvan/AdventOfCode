@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main() {
-    val filePath = "./day-01/src/input.txt"
+    val filePath = "./day-01/input.txt"
 
     first(filePath)
     second(filePath)
